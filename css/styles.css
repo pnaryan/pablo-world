@@ -11397,7 +11397,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/about/photo.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11750,4 +11750,51 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#playBTN {
+  position:relative;
+}
+#playBTN2 {
+  position:relative;
+}
+#playBTN3 {
+  position:relative;
+}
+
+#imgPlay {
+  width: 120px;
+  position: absolute;
+  left: 300px;
+  top: 180px;
+  cursor: pointer;
+}
+#imgPlay2 {
+  width: 120px;
+  position: absolute;
+  left: 300px;
+  top: 180px;
+  cursor: pointer;
+}
+#imgPlay3 {
+  width: 120px;
+  position: absolute;
+  left: 300px;
+  top: 180px;
+  cursor: pointer;
+}
+
+.play,
+.pause {
+  width: 100px;
+  height: 100px;
+  border: 0px;
+}
+
+.play {
+  background: url('https://www.freeiconspng.com/uploads/video-play-icon-15.gif') no-repeat center / 100%;
+}
+
+.pause {
+  background: url('https://www.freeiconspng.com/uploads/pause-icon-19.png') no-repeat center / 100%;
 }
