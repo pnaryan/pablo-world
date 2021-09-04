@@ -50,5 +50,43 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+    //play song 1
+    var song = document.getElementById("song");
+    var playBTN = document.getElementById("imgPlay");
+    playBTN.onclick = function (){
+        if (song.paused){
+            song.play();
+            playBTN.src = "assets/img/pauseBTN.png"
+        }else {
+            song.pause();
+            playBTN.src = "assets/img/playBTN.png"
+        }
+    }
+//play song 2
+    var song2 = document.getElementById("song2");
+    var playBTN2 = document.getElementById("imgPlay2");
+    playBTN2.onclick = function (){
+        if (song2.paused){
+            song2.play();
+            playBTN2.src = "assets/img/pauseBTN.png"
+        }else {
+            song2.pause();
+            playBTN2.src = "assets/img/playBTN.png"
+        }
+    }
+//play song 3
+    var song3 = document.getElementById("song3");
+    var playBTN3 = document.getElementById("imgPlay3");
+    playBTN3.onclick = function (){
+        if (song3.paused){
+            song3.play();
+            playBTN3.src = "assets/img/pauseBTN.png"
+        }else {
+            song3.pause();
+            playBTN3.src = "assets/img/playBTN.png"
+        }
+    }
 
 });
+
+
